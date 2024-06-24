@@ -1,0 +1,170 @@
+body {
+    background : linear-gradient( red, blue);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    background: linear-gradient(red , blue);
+    color: #fff;
+    padding: 0px;
+    border-style: solid;
+    border-color: black;
+    border-width: 7px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-style: inset;
+    border-color: black;
+    border-width: 5px;
+    
+
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 30px;
+    
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+}
+
+.product {
+    width: calc(33.3333% - 20px);
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.product img {
+    max-width:50%;
+    
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    text-align-last: center;
+    bottom: -100px;
+    
+    
+
+}
+.s1 {
+    background-color: none;
+    /*border-style: inset;
+    border-color: #ddd;*/
+}
+.s2 {
+    background-color: none;
+   /* border-style: inset;
+    border-color: #ddd; */
+    
+}
+.s3{
+    background-color :none;
+   /* border-style: inset;
+    border-color: #ddd;*/
+    
+}
+.s4 {
+    background-color: none;
+   /* border-style: inset;
+    border-color: #ddd;*/
+} 
+.hr3 {
+    text-align: center;
+} 
+.hr5 {
+    text-align: center;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100px;
+    background-color: blue;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+div {
+    background-color: red;
+    height: 150px;
+}
+.btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color:rgb(255, 0, 64);
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+} 
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+}
+.pass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+} 
+.p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 60px;
+}
+.p2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+.p3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
